@@ -17,11 +17,14 @@ public class Student {
     
     private int maxHrs;
     
+    
     public Student()
     {
         name = "Name Not Set";
         ID = 0;
     }
+    
+    //  Main constructor that takes name property
     public Student(String givenName, int givenID)
     {
           this.name = givenName;
