@@ -10,7 +10,7 @@ package studentlist;
  *
  * @author shaim
  * Date: Feb 5th,2019
- * Location: hader
+ * Location: Header 
  */
 public class Student {
     private String name;
