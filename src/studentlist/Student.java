@@ -15,6 +15,8 @@ public class Student {
     private int ID;
     private String DoB;
     
+    private int maxHrs;
+    
     public Student()
     {
         name = "Name Not Set";
@@ -43,19 +45,5 @@ public class Student {
     public int getID ()
     {   
         return ID;
-    }
-
-    /**
-     * @return the DoB
-     */
-    public String getDoB() {
-        return DoB;
-    }
-
-    /**
-     * @param DoB the DoB to set
-     */
-    public void setDoB(String DoB) {
-        this.DoB = DoB;
     }
 }
