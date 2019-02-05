@@ -49,4 +49,8 @@ public class Student {
     {   
         return ID;
     }
+    
+    public String toStirng(){
+      return "Student";
+    }
 }
